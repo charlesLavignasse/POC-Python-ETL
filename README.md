@@ -13,6 +13,7 @@ Projet réalisé pour un client qui d'ordinaire traite ses flux ETL via Talend. 
 
 Dans un premier temps, j'ai choisi la suite Anaconda pour réaliser le projet, mais suite à des problèmes d'interdépendances entre packages et/ou des soucis d'installation, j'ai préféré désinstaller Anaconda et travailler avec un environnement virtuel python qui comprenait uniquement les packages dont nous aurions besoin. Ceci présente un double avantage, en effet, le projet sera déployable unitairement sans problème de dépendances.
 
+* Pyspark pour ETl -> problèmes de drivers pour la connexion à Azure Active Directory, d'autre solutions ont été trouvées 
 * PYODBC pour la connexion en base
 * Pandas pour la gestion des données
 * Pandasql pour effectuer des transformations entre Dataframes
